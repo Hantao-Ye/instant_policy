@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+include pyproject.toml
+recursive-include instant_policy *.so *.pyi py.typed
