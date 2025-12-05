@@ -8,8 +8,8 @@ from rlbench.action_modes.gripper_action_modes import Discrete
 from rlbench.environment import Environment
 from rlbench.observation_config import ObservationConfig
 from tqdm import trange
-from utils import *
-from instant_policy import sample_to_cond_demo
+from .utils import *
+from .instant_policy import sample_to_cond_demo
 
 
 # Some examples of RLBench tasks
